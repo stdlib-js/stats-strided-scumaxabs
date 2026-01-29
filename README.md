@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import scumaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-scumaxabs@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-scumaxabs/tags). For example,
+
+```javascript
 import scumaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-scumaxabs@v0.1.0-esm/index.mjs';
 ```
 
@@ -163,7 +168,7 @@ scumaxabs.ndarray( 4, x, 2, 1, y, -1, y.length-1 );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
-import scumaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-scumaxabs@v0.1.0-esm/index.mjs';
+import scumaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-scumaxabs@esm/index.mjs';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
